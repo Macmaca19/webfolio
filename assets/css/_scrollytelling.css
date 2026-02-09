@@ -25,6 +25,7 @@
 	opacity: 0;
 	transform: translateY(30px);
 	animation: fadeInUp 1s ease forwards;
+	font-family: var(--font-family-tittle);
 }
 
 .hero p {
