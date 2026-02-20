@@ -12,7 +12,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: var(--gradient-hero);
+	background: image-set(https://ik.imagekit.io/yed455dgy/portfolio/Horses%20in%20love.JPEG?updatedAt=1771606212346);
 	text-align: center;
 	padding: var(--space-2xl);
 }
