@@ -12,14 +12,17 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: image-set(https://ik.imagekit.io/yed455dgy/portfolio/Horses%20in%20love.JPEG?updatedAt=1771606212346);
+	background-image: url(https://ik.imagekit.io/yed455dgy/portfolio/manno%20proyecta%20sombra%20de%20caballo?updatedAt=1771697399556);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	text-align: center;
 	padding: var(--space-2xl);
 }
 
 .hero h1 {
 	font-size: var(--font-size-4xl);
-	color: white;
+	color:#fdd700e9;
 	margin-bottom: var(--space-md);
 	font-weight: var(--font-weight-bold);
 	opacity: 0;
@@ -118,7 +121,7 @@
 }
 
 .chapter-3 h2 {
-	color: var(--color-accent-green);
+	color: var(--color-accent-white);
 	font-size: var(--font-size-3xl);
 	margin-bottom: var(--space-md);
 }
@@ -207,13 +210,15 @@
 }
 
 .card {
-	background: var(--color-card-bg);
-	border: 1px solid var(--color-card-border);
-	padding: var(--space-2xl);
-	border-radius: var(--radius-xl);
-	opacity: 0;
-	transform: translateX(-30px);
-	transition: opacity 0.6s ease, transform 0.6s ease, background 0.3s ease;
+	 background: var(--color-card-bg);
+  overflow: hidden;
+  border-radius: var(--radius-xl);
+  opacity: 0;
+  transform: translateX(-30px);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease,
+    background 0.3s ease;
 }
 
 .visible .card {
