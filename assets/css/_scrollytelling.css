@@ -93,6 +93,7 @@
 .text-large {
 	font-size: var(--font-size-xl);
 	line-height: var(--line-height-relaxed);
+	color: var(--color-accent-white)
 }
 
 /* ===== CHAPTER THEMES ===== */
@@ -101,7 +102,7 @@
 }
 
 .chapter-1 h2 {
-	color: var(--color-accent-blue);
+	color: var(--color-accent-white);
 	font-size: var(--font-size-3xl);
 	margin-bottom: var(--space-md);
 }
